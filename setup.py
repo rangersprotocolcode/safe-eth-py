@@ -21,8 +21,8 @@ requirements = [
 extras_require = {"django": ["django>=2", "django-filter>=2", "djangorestframework>=2"]}
 
 setup(
-    name="safe-eth-py",
-    version="4.0.0",
+    name="rangers-safe-eth-py",
+    version="1.0.1",
     packages=find_packages(),
     package_data={"gnosis": ["py.typed"]},
     install_requires=requirements,
@@ -32,9 +32,9 @@ setup(
     license="MIT License",
     description="Gnosis libraries for Python Projects",
     long_description=README,
-    url="https://github.com/safe-global/safe-eth-py",
-    author="Uxío",
-    author_email="uxio@gnosis.pm",
+    url="https://github.com/rangersprotocolcode/safe-eth-py.git",
+    author="ZKSun",
+    author_email="coderzksun@gmail.com",
     keywords=["ethereum", "web3", "django", "rest", "gnosis"],
     classifiers=[
         "Environment :: Web Environment",
