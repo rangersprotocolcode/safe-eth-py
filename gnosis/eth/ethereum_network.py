@@ -198,6 +198,7 @@ class EthereumNetwork(Enum):
     RANGERS_MAINNET = 2025
     RANGERS_TESTNET = 9527
     RANGERS_DEVNET = 9500
+    RANGERSCM_TESTNET = 38401
 
     @classmethod
     def _missing_(cls, value):
